@@ -18,6 +18,7 @@ header .navber{
     width: 1400px;
     display: flex;
     margin: 10px auto;
+    align-items: center;
     /* border: 2px solid green; */
     padding: 50px 10px;
     justify-content: space-between;
@@ -101,4 +102,56 @@ header .navber ul li a{
     margin: auto;
     padding-left: 35px ;
     /* border: 2px solid green; */
+}
+/*Quick list of Our Features*/
+.features-container{
+    width: 1440px;
+    /* height: 600px; */
+    margin: 60px auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid rgb(222, 5, 238); */
+}
+.features-container .image-container{
+    width: 52%;
+    /* border: 2px solid navy; */
+}
+.features-container .image-container img{
+    margin: 5px;
+}
+.features-container .features-content{
+    padding: 15px;
+    text-align: left;
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid rgb(225, 178, 7); */
+}
+.features-container .features-content h1{
+    font-size: 35px;
+    font-weight: 700;
+    color:rgb(19, 19, 19);
+}
+.features-container .features-content h1 p{
+    color: rgb(114, 114, 114);
+    display: inline;
+    font-size: 35px;
+}
+.features-container .features-content h1 span{
+    color: rgb(255, 144, 14);
+}
+.features-container .features-content p{
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.features-container .features-content button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px;
+    background:rgb(255, 144, 14);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
 }
