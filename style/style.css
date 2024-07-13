@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    width: 1920px;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* navber style */
+header .navber{
+    width: 1400px;
+    display: flex;
+    margin: 10px auto;
+    /* border: 2px solid green; */
+    padding: 50px 10px;
+    justify-content: space-between;
+}
+header .navber .logo h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+header .navber .logo h1 span{
+    color: rgb(0, 128, 255);
+}
+header .navber ul{
+    display: flex;
+    gap: 25px;
+}
+header .navber ul li{
+    list-style: none;
+
+}
+header .navber ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+}
+/* banner-container style*/
+/* banner-content */
+.banner-container{
+    padding: 15px 5px;
+    width: 1750px;
+    margin: 10px auto;
+    /* border: 2px solid rgb(254, 5, 196); */
+}
+.banner-container .banner-content{
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+    padding: 20px;
+}
+.banner-container .banner-content h1{
+    text-align: center;
+    color: rgb(19, 19, 19);
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px;
+}
+.banner-container .banner-content span{
+    color: rgb(19, 19, 19);
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 5px;
+    text-align: center;
+    display: block;
+}
+.banner-container .banner-content .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.banner-container .banner-content .btn button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background: rgb(255, 144, 14);
+}
+.banner-container .banner-content .btn button:hover{
+    color: rgb(19, 19, 19);
+    background-color: transparent;
+    text-decoration: underline;
+    /* border: 1px solid rgb(19, 19, 19); */
+    transition: 0.5s;
+}
+/* banner-image style */
+.banner-image{
+    width: 85%;
+    margin: auto;
+    padding-left: 35px ;
+    /* border: 2px solid green; */
+}
